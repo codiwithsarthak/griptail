@@ -80,7 +80,7 @@ void get_system_info(void) {
     format_memory(si.totalram, total_mem);
     format_memory(si.totalram - si.freeram, used_mem);
 
-    printf("%s┌─────── Griptail System Info ───────┐%s\n", COLOR_BLUE, COLOR_RESET);
+    printf("%s┌─────── Griptail System Info ────────┐%s\n", COLOR_BLUE, COLOR_RESET);
     printf("%s│%s %s%s@%s%s\n", COLOR_BLUE, COLOR_RESET,
            pw->pw_name, COLOR_BLUE, hostname, COLOR_RESET);
     printf("%s│%s OS: %s\n", COLOR_BLUE, COLOR_RESET, get_distro_name());
