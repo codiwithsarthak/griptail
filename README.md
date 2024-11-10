@@ -89,7 +89,7 @@ If installed locally (without `make install`):
 │ Memory: 4.7 GB / 7.5 GB
 │ Shell: fish
 │ DE: Hyprland
-└──────────────────────────────────┘
+└─────────────────────────────────┘
 ```
 
 ## Contributing
